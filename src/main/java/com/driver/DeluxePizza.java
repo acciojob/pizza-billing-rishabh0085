@@ -1,6 +1,6 @@
 package com.driver;
 
-class DeluxePizza extends Pizza {
+public class DeluxePizza extends Pizza {
 
     public DeluxePizza(Boolean isVeg) {
         super(isVeg);
