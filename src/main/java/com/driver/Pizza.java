@@ -44,11 +44,8 @@ public class Pizza {
     }
 
     public String getBill(){
-        if(this.bill.equals("")) {
             this.bill = "Base Price Of The Pizza: " + basePrice + "\n" + this.bill;
             this.bill += "Total Price: " + getPrice() + "\n";
             return this.bill;
-        }
-        return this.bill;
     }
 }
